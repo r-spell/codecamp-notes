@@ -18,7 +18,7 @@ There is a missing quotation mark when asking for the user_name which causes a P
 
 ###NameError:
 
-A name error generally means that a variable has been used before it is assigned a value.  Often this can occur because of a spelling error (_LCText_).
+A **NameError** generally means that a variable has been used before it is assigned a value.  Often this can occur because of a spelling error (_LCText_).
 
 **Example:**
  variable_name=6
