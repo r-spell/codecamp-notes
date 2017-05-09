@@ -35,6 +35,10 @@ The input value here is a string and you cannot use a mathematical operator on a
 
 **Example:**
 
+    age=7
+    print("I am", age+".")
+
+There is an error because **age** is an "int" type so cannot be concatenated with **"."**, which is a "str" type. 
 
 ###NameError:
 
