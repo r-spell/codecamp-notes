@@ -53,4 +53,17 @@ This contains a spelling error so "varable_name" is undefined.
 ###ValueError:
 
 
+**Example:**
+Let's say we have a program that looks like this:
+    age=input("What is your age?")
+    age_int=int(age)
+    print(age)
 
+If we run this program and the user gives "dog" for their age this is what happens. 
+
+>$ python valueerror.py 
+>What is your age?dog
+>Traceback (most recent call last):
+>   File "valueerror.py", line 2, in &lt module &gt
+>   age_int=int(age)
+>ValueError: invalid literal for int() with base 10: 'dog'
