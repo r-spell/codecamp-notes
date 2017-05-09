@@ -2,9 +2,9 @@ This is where I put my codecamp notes
 
 _LCText_ citation refers to the LaunchCode customized version of Runestone's _ThinkCsPy_ 
 
-##Types of Error Messages
+## Types of Error Messages
 
-###ParseError:
+### ParseError:
 
 A **ParseError** ususally is punctuation mistake such as missing comma, parenthese, or quotation mark. This is a kind of **Syntax Error**. (_LCText_).
 
@@ -23,7 +23,7 @@ Error:
 Correction:
  user_name=input("What is your ''Given Name''?")
  print(user_name)
-###TypeError:
+### TypeError:
 
 A **TypeError** occurs when combine incompatible objects of different types. This can often happen with mathematical operations between incompatible objects. 
 
@@ -40,7 +40,7 @@ Here we try to do vision with a string and an integer number, these are incompat
 
 There is an error because **age** is an "int" type so cannot be concatenated with **"."**, which is a "str" type. 
 
-###NameError:
+### NameError:
 
 A **NameError** generally means that a variable has been used before it is assigned a value.  Often this can occur because of a spelling error (_LCText_).
 
@@ -50,7 +50,7 @@ A **NameError** generally means that a variable has been used before it is assig
 
 This contains a spelling error so "varable_name" is undefined.
 
-###ValueError:
+### ValueError:
 
 
 **Example:**
