@@ -25,13 +25,13 @@ Correction:
  print(user_name)
 ###TypeError:
 
-A **TypeError** occurs when you use a function which expects a certain value type (ex. string, float, integer) and the value you try to put through the function is not of the proper type. This can also happen when you try to combine different value types which are incompatible. 
+A **TypeError** occurs when combine incompatible objects of different types. This can often happen with mathematical operations between incompatible objects. 
 
 **Example:**
  input_value="This is a string."
  print(input_value / 4)
 
-The input value here is a string and you cannot use a mathematical operator on a string.
+Here we try to do vision with a string and an integer number, these are incompatible types.
 
 **Example:**
 
