@@ -25,6 +25,17 @@ Correction:
  print(user_name)
 ###TypeError:
 
+A **TypeError** occurs when you use a function which expects a certain value type (ex. string, float, integer) and the value you try to put through the function is not of the proper type. This can also happen when you try to combine different value types which are incompatible. 
+
+**Example:**
+ input_value="This is a string."
+ print(input_value / 4)
+
+The input value here is a string and you cannot use a mathematical operator on a string.
+
+**Example:**
+
+
 ###NameError:
 
 A **NameError** generally means that a variable has been used before it is assigned a value.  Often this can occur because of a spelling error (_LCText_).
