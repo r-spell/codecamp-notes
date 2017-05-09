@@ -55,9 +55,12 @@ This contains a spelling error so "varable_name" is undefined.
 
 **Example:**
 Let's say we have a program that looks like this:
+
+```python
     age=input("What is your age?")
     age_int=int(age)
     print(age)
+```
 
 If we run this program and the user gives "dog" for their age this is what happens. 
 
