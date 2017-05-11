@@ -1,3 +1,5 @@
+#Rosanna Speller
+
 This is where I put my codecamp notes
 
 _LCText_ citation refers to the LaunchCode customized version of Runestone's _ThinkCsPy_ 
@@ -75,8 +77,30 @@ If we run this program and the user gives "dog" for their age this is what happe
 
 **Does a funtion have to have parameters?**
 
+If the function is defined without a parameter and called without a parameter it will run.  If there is a parameter one place but not the other there are errors. 
+
+Chris says:
+>"No. A function may have 0 or more parameters, as decided by a programmer."
+
 **What happens if we call a function without providing a value for one or more input parameters?**
 
+There are errors when there are missing value or input parameters. Specifically we have a TypeError because the number of "arguments" (parameter values) doesn't match with the definition of the function. 
+
+UNLESS you put default values for additional arguments.  
+
+    **Example:**
+``` python
+    def add_two(a,b=0)
+        return a+b
+    print(add(2))
+    >2
+```
+
+    Here b has default a default value of 0.  If it just said aa_two 
 **Does a function have to return a value?**
 
+No.
+
 **What happens if we have a function that doesn't return a value, but we try to store a return value in a variable?**
+
+The variable will have the "special value" of None.
