@@ -70,3 +70,13 @@ If we run this program and the user gives "dog" for their age this is what happe
 >   File "valueerror.py", line 2, in &lt module &gt
 >   age_int=int(age)
 >ValueError: invalid literal for int() with base 10: 'dog'
+
+## Functions
+
+**Does a funtion have to have parameters?**
+
+**What happens if we call a function without providing a value for one or more input parameters?**
+
+**Does a function have to return a value?**
+
+**What happens if we have a function that doesn't return a value, but we try to store a return value in a variable?**
