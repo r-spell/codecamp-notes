@@ -104,3 +104,7 @@ No.
 **What happens if we have a function that doesn't return a value, but we try to store a return value in a variable?**
 
 The variable will have the "special value" of None.
+
+**Can a function return more than once?**
+
+Kind of . . . you can't write return more than once in a function, but you can return multiple values by returning a list. 
